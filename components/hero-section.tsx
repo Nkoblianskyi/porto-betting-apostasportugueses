@@ -86,10 +86,6 @@ export function HeroSection() {
 
           {/* Stats Cards */}
           <div className="hidden lg:flex flex-col gap-4">
-            <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-2xl p-6 min-w-[200px]">
-              <p className="text-4xl font-bold text-primary mb-1">8+</p>
-              <p className="text-sm text-gray-300">Sites Analisados</p>
-            </div>
             <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
               <p className="text-4xl font-bold text-green-400 mb-1">100%</p>
               <p className="text-sm text-gray-300">Licenciados SRIJ</p>
