@@ -57,9 +57,7 @@ export function HeroSection() {
 
             <div className="flex flex-wrap gap-6">
               <div className="flex items-center gap-2 bg-black/40 backdrop-blur-sm rounded-lg px-3 py-2">
-                <div className="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center">
-                  <Shield className="w-5 h-5 text-green-400" />
-                </div>
+                <Image src="/srij.svg" alt="SRIJ" width={46} height={46} className="w-8 h-4 mx-auto mb-1" />
                 <div>
                   <p className="text-sm font-semibold text-white">Licença</p>
                   <p className="text-xs text-gray-300">SRIJ Portugal</p>
@@ -67,9 +65,7 @@ export function HeroSection() {
               </div>
 
               <div className="flex items-center gap-2 bg-black/40 backdrop-blur-sm rounded-lg px-3 py-2">
-                <div className="w-10 h-10 bg-blue-500/20 rounded-lg flex items-center justify-center">
-                  <Lock className="w-5 h-5 text-blue-400" />
-                </div>
+                 <Image src="/flag.png" alt="flag" width={46} height={46} className="w-6 h-4 mx-auto mb-1" />
                 <div>
                   <p className="text-sm font-semibold text-white">Segurança</p>
                   <p className="text-xs text-gray-300">Dados Protegidos</p>
@@ -123,7 +119,7 @@ export function HeroSection() {
               <p className="text-xs font-medium text-white">Licença</p>
             </div>
             <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-3 text-center">
-              <Image src="/flag.png" alt="SRIJ" width={46} height={46} className="w-6 h-4 mx-auto mb-1" />
+              <Image src="/flag.png" alt="flag" width={46} height={46} className="w-6 h-4 mx-auto mb-1" />
               <p className="text-xs font-medium text-white">Segurança</p>
             </div>
             <div className="bg-black/50 backdrop-blur-sm border border-white/10 rounded-xl p-3 text-center">
